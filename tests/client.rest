@@ -1,0 +1,18 @@
+
+
+
+post http://localhost:5600/login/add HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "name" : "micky28",
+"password" : "12345"}
+
+###
+
+post http://localhost:5600/login HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "name" : "micky28",
+"password" : "12345"}
